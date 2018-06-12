@@ -61,7 +61,7 @@ By changing the impulse response we can modify the behaviour of the system.
 
 The prototype of the calculation in shaders is :
 
-![func_conv](report_res/func_conv.png)
+![func_conv](res/func_conv.png)
 
 Every pixel with 24bit scalar is treated as a pulse.
 
@@ -69,7 +69,7 @@ In order to get new impluse response matrix, it's single-axis unit step response
 
 For example, the impulse response used in edge detection is shown below.
 
-![h0](report_res/h0.png)
+![h0](res/h0.png)
 
 The impluse response h(x,y) is descripted in a matrix, and it can be extended to 5x5 or 7x7 for better experience:
 
